@@ -5,13 +5,13 @@
 /.pnp
 .pnp.js
 node_modules/
-images
+.env
 # testing
 /coverage
 
 # production
 /build
-
+images
 # misc
 .DS_Store
 .env.local
