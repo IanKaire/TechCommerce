@@ -2,6 +2,8 @@ import { ChakraProvider } from '@chakra-ui/react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ProductsPage from './pages/ProductsPage';
+import CartPage from './pages/CartPage';
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
          <main>
            <Routes>
             <Route path='/products' element={<ProductsPage/>}></Route>
+            <Route path='/cart' element={<CartPage/>}></Route>
             </Routes>
          </main>
       </Router>
