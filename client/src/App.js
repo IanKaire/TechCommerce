@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import ProductsPage from './pages/ProductsPage';
 import ProductPage from './pages/ProductPage';
 import CartPage from './pages/CartPage';
+import LandingPage from './pages/LandingPage';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -13,12 +15,14 @@ function App() {
         <Navbar/>
          <main>
            <Routes>
+            <Route path='/' element={<LandingPage/>}></Route>
             <Route path='/products' element={<ProductsPage/>}></Route>
             <Route path='/product/:id' element={<ProductPage/>}></Route>
             <Route path='/cart' element={<CartPage/>}></Route>
             </Routes>
          </main>
       </Router>
+      <Footer/>
     </ChakraProvider> 
   );
 }
