@@ -7,6 +7,7 @@ import CartPage from './pages/CartPage';
 import LandingPage from './pages/LandingPage';
 import LoginPage from './pages/LoginPage';
 import RegistrationPage from './pages/RegistrationPage';
+import ProfilePage from './pages/ProfilePage';
 import Footer from './components/Footer';
 
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/cart' element={<CartPage/>}></Route>
             <Route path='/login' element={<LoginPage/>}></Route>
             <Route path='/registration' element={<RegistrationPage/>}></Route>
+            <Route path='/profile' element={<ProfilePage/>}></Route>
             </Routes>
          </main>
       </Router>
