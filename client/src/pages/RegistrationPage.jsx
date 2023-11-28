@@ -66,7 +66,7 @@ import {
                   <Heading size={headingBR}>Create an account.</Heading>
                   <HStack spacing='1' justify='center'>
                     <Text color='muted'>Already a user? </Text>
-                    <Button as={ReactLink} to='/registration' variant='link' colorScheme='orange'>
+                    <Button as={ReactLink} to='/login' variant='link' colorScheme='orange'>
                       Sign in
                     </Button>
                   </HStack>

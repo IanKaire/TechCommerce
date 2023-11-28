@@ -9,6 +9,7 @@ import LoginPage from './pages/LoginPage';
 import RegistrationPage from './pages/RegistrationPage';
 import ProfilePage from './pages/ProfilePage';
 import Footer from './components/Footer';
+import CheckoutPage from './pages/CheckoutPage';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path='/login' element={<LoginPage/>}></Route>
             <Route path='/registration' element={<RegistrationPage/>}></Route>
             <Route path='/profile' element={<ProfilePage/>}></Route>
+            <Route path='/checkout' element={<CheckoutPage/>}></Route>
             </Routes>
          </main>
       </Router>
